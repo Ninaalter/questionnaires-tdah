@@ -1,0 +1,92 @@
+{
+  "consentement": {
+    "texte": "## À propos de ce questionnaire\n\n### Pourquoi ce questionnaire ?\n\nCe questionnaire aide à évaluer vos difficultés de concentration et d'attention avant et après la méthode. Il prend environ **10 minutes** à remplir.\n\n### Vos informations sont protégées\n\n✅ Vos réponses sont **confidentielles**  \n✅ Seule la thérapeute y a accès  \n✅ Vous pouvez arrêter à tout moment  \n✅ Vos données sont stockées de manière sécurisée  \n\n### Comment vos réponses seront utilisées\n\nVos réponses permettent de :\n- Suivre votre progression personnelle\n- Adapter la méthode à vos besoins\n- Améliorer la méthode pour aider d'autres personnes\n\n### Questions ?\n\nPour toute question : [insérer votre email ici]\n\n---\n\n**En continuant, vous acceptez de remplir ce questionnaire de manière volontaire.**"
+  },
+  
+  "echelle_likert": [
+    "Pas du tout",
+    "Rarement", 
+    "Parfois",
+    "Souvent",
+    "Très souvent"
+  ],
+  
+  "citation_asrs": "Kessler, R.C., Adler, L., Ames, M., Demler, O., Faraone, S., Hiripi, E., Howes, M.J., Jin, R., Secnik, K., Spencer, T., Ustun, T.B., Walters, E.E. (2005). The World Health Organization Adult ADHD Self-Report Scale (ASRS). Psychological Medicine, 35(2), 245-256. Version française validée par Rahali et al. (2024), L'Encéphale.",
+  
+  "seuils_partie_a": [2, 3, 2, 2, 3, 3],
+  
+  "questionnaire_pre": {
+    "nom": "Questionnaire PRÉ-intervention - ASRS v1.1",
+    "description": "À remplir AVANT de commencer la méthode. Basé sur l'échelle ASRS v1.1 de l'OMS.",
+    "questions": [
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à finaliser les derniers détails d'un projet une fois que les parties les plus stimulantes ont été faites?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à mettre les choses en ordre lorsque vous devez faire quelque chose qui demande de l'organisation?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous rappeler vos rendez-vous ou vos obligations?",
+      "Lorsque vous devez faire quelque chose qui demande beaucoup de réflexion, à quelle fréquence vous arrive-t-il d'éviter de le faire ou de le remettre à plus tard?",
+      "À quelle fréquence vous arrive-t-il de remuer ou de tortiller les mains ou les pieds lorsque vous devez rester assis pendant une période prolongée?",
+      "À quelle fréquence vous arrive-t-il de vous sentir excessivement actif et contraint de faire quelque chose, comme si vous étiez entraîné malgré vous par un moteur?",
+      "À quelle fréquence vous arrive-t-il de faire des fautes d'étourderie lorsque vous travaillez à un projet ennuyeux ou difficile?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous concentrer lorsque vous faites un travail ennuyeux ou répétitif?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous concentrer sur les propos de votre interlocuteur, même s'il s'adresse directement à vous?",
+      "À la maison ou au travail, à quelle fréquence vous arrive-t-il d'égarer des choses ou d'avoir des difficultés à les retrouver?",
+      "À quelle fréquence vous arrive-t-il d'être distrait par l'activité ou le bruit autour de vous?",
+      "À quelle fréquence vous arrive-t-il de quitter votre siège pendant des réunions ou d'autres situations où vous devriez rester assis?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous tenir tranquille?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous détendre et à vous reposer dans vos temps libres?",
+      "À quelle fréquence vous arrive-t-il de parler de façon excessive à l'occasion de rencontres sociales?",
+      "Pendant une conversation, à quelle fréquence vous arrive-t-il de terminer les phrases de vos interlocuteurs avant que ces derniers aient le temps de les finir?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à attendre votre tour lorsque vous devriez le faire?",
+      "À quelle fréquence vous arrive-t-il d'interrompre les gens lorsqu'ils sont occupés?"
+    ]
+  },
+  
+  "questionnaire_post": {
+    "nom": "Questionnaire POST-intervention - ASRS v1.1",
+    "description": "À remplir APRÈS avoir terminé la méthode (quelques mois plus tard)",
+    "questions": [
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à finaliser les derniers détails d'un projet une fois que les parties les plus stimulantes ont été faites?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à mettre les choses en ordre lorsque vous devez faire quelque chose qui demande de l'organisation?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous rappeler vos rendez-vous ou vos obligations?",
+      "Lorsque vous devez faire quelque chose qui demande beaucoup de réflexion, à quelle fréquence vous arrive-t-il d'éviter de le faire ou de le remettre à plus tard?",
+      "À quelle fréquence vous arrive-t-il de remuer ou de tortiller les mains ou les pieds lorsque vous devez rester assis pendant une période prolongée?",
+      "À quelle fréquence vous arrive-t-il de vous sentir excessivement actif et contraint de faire quelque chose, comme si vous étiez entraîné malgré vous par un moteur?",
+      "À quelle fréquence vous arrive-t-il de faire des fautes d'étourderie lorsque vous travaillez à un projet ennuyeux ou difficile?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous concentrer lorsque vous faites un travail ennuyeux ou répétitif?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous concentrer sur les propos de votre interlocuteur, même s'il s'adresse directement à vous?",
+      "À la maison ou au travail, à quelle fréquence vous arrive-t-il d'égarer des choses ou d'avoir des difficultés à les retrouver?",
+      "À quelle fréquence vous arrive-t-il d'être distrait par l'activité ou le bruit autour de vous?",
+      "À quelle fréquence vous arrive-t-il de quitter votre siège pendant des réunions ou d'autres situations où vous devriez rester assis?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous tenir tranquille?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous détendre et à vous reposer dans vos temps libres?",
+      "À quelle fréquence vous arrive-t-il de parler de façon excessive à l'occasion de rencontres sociales?",
+      "Pendant une conversation, à quelle fréquence vous arrive-t-il de terminer les phrases de vos interlocuteurs avant que ces derniers aient le temps de les finir?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à attendre votre tour lorsque vous devriez le faire?",
+      "À quelle fréquence vous arrive-t-il d'interrompre les gens lorsqu'ils sont occupés?"
+    ]
+  },
+  
+  "questionnaire_retrospectif": {
+    "nom": "Questionnaire rétrospectif - ASRS v1.1",
+    "description": "Pour les personnes ayant déjà suivi la méthode - répondez en pensant à votre situation ACTUELLE",
+    "questions": [
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à finaliser les derniers détails d'un projet une fois que les parties les plus stimulantes ont été faites?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à mettre les choses en ordre lorsque vous devez faire quelque chose qui demande de l'organisation?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous rappeler vos rendez-vous ou vos obligations?",
+      "Lorsque vous devez faire quelque chose qui demande beaucoup de réflexion, à quelle fréquence vous arrive-t-il d'éviter de le faire ou de le remettre à plus tard?",
+      "À quelle fréquence vous arrive-t-il de remuer ou de tortiller les mains ou les pieds lorsque vous devez rester assis pendant une période prolongée?",
+      "À quelle fréquence vous arrive-t-il de vous sentir excessivement actif et contraint de faire quelque chose, comme si vous étiez entraîné malgré vous par un moteur?",
+      "À quelle fréquence vous arrive-t-il de faire des fautes d'étourderie lorsque vous travaillez à un projet ennuyeux ou difficile?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous concentrer lorsque vous faites un travail ennuyeux ou répétitif?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous concentrer sur les propos de votre interlocuteur, même s'il s'adresse directement à vous?",
+      "À la maison ou au travail, à quelle fréquence vous arrive-t-il d'égarer des choses ou d'avoir des difficultés à les retrouver?",
+      "À quelle fréquence vous arrive-t-il d'être distrait par l'activité ou le bruit autour de vous?",
+      "À quelle fréquence vous arrive-t-il de quitter votre siège pendant des réunions ou d'autres situations où vous devriez rester assis?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous tenir tranquille?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à vous détendre et à vous reposer dans vos temps libres?",
+      "À quelle fréquence vous arrive-t-il de parler de façon excessive à l'occasion de rencontres sociales?",
+      "Pendant une conversation, à quelle fréquence vous arrive-t-il de terminer les phrases de vos interlocuteurs avant que ces derniers aient le temps de les finir?",
+      "À quelle fréquence vous arrive-t-il d'avoir des difficultés à attendre votre tour lorsque vous devriez le faire?",
+      "À quelle fréquence vous arrive-t-il d'interrompre les gens lorsqu'ils sont occupés?"
+    ]
+  }
+}
