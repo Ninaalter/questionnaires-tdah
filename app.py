@@ -14,7 +14,7 @@ import os
 
 st.set_page_config(
     page_title="Questionnaire TDAH - ASRS v1.1",
-    page_icon="🧠",
+    page_icon=None,
     layout="centered"
 )
 
@@ -302,7 +302,7 @@ def main():
     config = load_config()
     if not config:
         st.stop()
-    st.sidebar.title("🧠 Navigation")
+    st.sidebar.title("Navigation")
     if 'consented' not in st.session_state:
         st.session_state['consented'] = False
     if not st.session_state['consented']:
