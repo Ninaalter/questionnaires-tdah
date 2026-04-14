@@ -314,7 +314,7 @@ def main():
                 "PRÉ-intervention (nouveaux clients)",
                 "POST-intervention (après la méthode)",
                 "Rétrospectif (anciens clients)",
-                "Profil Atypique (Betty Rossitto)",
+                "Profil Atypique",
             ]
         )
     if page == "Consentement" or not st.session_state['consented']:
@@ -325,7 +325,7 @@ def main():
         show_questionnaire(config, "post")
     elif page == "Rétrospectif (anciens clients)":
         show_questionnaire(config, "retrospectif")
-    elif page == "Profil Atypique (Betty Rossitto)":
+    elif page == "Profil Atypique":
         show_questionnaire_profil_atypique()
     st.sidebar.markdown("---")
     st.sidebar.caption("💡 Méthode d'intégration multisensorielle")
