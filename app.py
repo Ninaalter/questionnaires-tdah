@@ -311,7 +311,6 @@ def main():
         page = st.sidebar.radio(
             "Choisissez votre questionnaire :",
             [
-                "Consentement",
                 "PRÉ-intervention (nouveaux clients)",
                 "POST-intervention (après la méthode)",
                 "Rétrospectif (anciens clients)",
