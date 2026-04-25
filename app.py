@@ -52,9 +52,10 @@ def save_to_gsheet(spreadsheet, worksheet_name, data):
         try:
             worksheet = spreadsheet.worksheet(worksheet_name)
         except:
-            worksheet = spreadsheet.add_worksheet(title=worksheet_name, rows="1000", cols="50")
+            worksheet = spreadsheet.add_worksheet(title=worksheet_name, rows="1000", cols="100")
             worksheet.append_row(list(data.keys()))
-        worksheet.append_row(list(data.values()))
+        safe_values = [str(v) if isinstance(v, (bool, type(None))) else v for v in data.values()]
+        worksheet.append_row(safe_values)
         return True
     except Exception as e:
         st.error(f"❌ Erreur lors de la sauvegarde: {str(e)}")
@@ -308,6 +309,10 @@ def main():
     if not st.session_state['consented']:
         page = "Consentement"
     else:
+        st.sidebar.info(
+            "Dans le menu ci-dessous, choisissez le questionnaire correspondant à votre situation.\n\n"
+            "Nous vous invitons également à compléter le **Profil Atypique**, afin d'affiner l'analyse de votre fonctionnement."
+        )
         page = st.sidebar.radio(
             "Choisissez votre questionnaire :",
             [
